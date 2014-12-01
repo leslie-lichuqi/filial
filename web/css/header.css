@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.header-container{
+	width: 1007px;
+	margin: 0px auto;
+}
+#header .logo-container{
+	padding: 25px 0;
+	position: relative;
+}
+#header .logo-image{
+	display: block;
+	margin: 0px auto;
+}
+
+#header .div-feature{
+	background-color: #A38A77;
+	border-radius:4px;
+	width: 80px;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	position: absolute;
+	right: 100px;
+	bottom:25px;
+}
+#header .nav-container{
+	background: url("../img/web-index-navi-bg.png") no-repeat center center;
+	width: 988px;
+	height: 39px;
+	margin: 0px auto;
+}
+#header .navi-option{
+	color: #fff;
+	font-size: 16px;
+	line-height: 39px;
+	width: 25%;
+	text-align: center;
+	background: url("../img/web-index-navi-vr.png") no-repeat left center;
+	cursor: pointer;
+}
+#header .navi-option:first-child{
+	background: none;
+}

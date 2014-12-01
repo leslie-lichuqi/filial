@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+.adver-image{
+	width: 100%;
+	height: 18%
+}
+.summary-image{
+	display: block;
+	margin: 2% auto;
+	height: 20%;
+	width: 90%;
+}
+.middle-btn{
+	width: 90%;
+	padding: 3% 0;
+	color: #fff;
+	background-color: #7F4F21;
+	margin: 0px auto;
+	border-radius:4px;
+	text-align: center;
+	font-size: 20px;
+}
+#mission .title{
+	width: 90%;
+	margin: 10px auto;
+	color: #7F4F21;
+	font-size: 20px;
+}
+.mission-container{
+	padding: 0px 20px;
+	width: 90%;
+	box-sizing:border-box;
+	margin: 0px auto;
+	background-color:#DCDDDD;
+	border-radius:4px; 
+	padding-bottom:5%;
+	margin-bottom: 5%;
+}
+.mission-table{
+	width: 100%;
+}
+.mission-table td{
+	padding-top: 5%;
+}
+.mission-content{
+	background: #fff;
+	border-radius:4px;
+	padding: 5px;
+	color: #DCDDDD;
+	font-size: 18px
+}
+.check-feature{
+	-webkit-appearance:none;
+	width: 20px;
+	height: 20px;
+	border-radius:20px;
+	background-color: #fff;
+}
+.check-feature:checked{
+	background: url("../img/app-mission-checked.png") no-repeat center center;
+	background-color: #fff;
+}
